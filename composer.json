@@ -1,0 +1,26 @@
+{
+    "name": "tizipso/logs",
+    "description": "Log Manager extension for dcat-admin",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension", "logs"],
+    "homepage": "https://github.com/tizipso/logs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tizips",
+            "email": "tizips@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Logs\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
